@@ -22,3 +22,19 @@ print(x + y)
 x = 5
 y = "John"
 print(x, y)
+# Global Variables
+x = "awesome"
+
+def myfunc();
+print("Python is " + x)
+
+myfunc()
+
+# The global Keyword
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
