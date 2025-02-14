@@ -38,3 +38,7 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+# Python Data Types
+# Getting the Data Type
+x = 5
+print(type(x))
